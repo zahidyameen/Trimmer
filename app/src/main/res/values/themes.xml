@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Trimmer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#A3D4FD</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="StyleRoot" parent="Widget.Support.CoordinatorLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+    <style name="FView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="VWView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="WView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="VView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TxtRgStyle22">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTxt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="TxtSemiSmallStyle22">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTxt</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ImageTrim">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
